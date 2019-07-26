@@ -20,11 +20,37 @@
   			padding: 3em 1em 2em 1em;
   			text-align: center; background-color: rgba(255,255,255,.5);
 		}
+		.row {	display: flex;
+		}
+		.column {
+			flex: 50%;
+			padding: 5px;
+		}
+		.list {	display: flex;
+		}
+		.pages {
+			flex: 33.33%;
+			padding: 2px;
+		}
+		div {	text-align: center;
+		}
 	</style>
 </head>
 <body>
+	<h1>Batten Travel Agency</h1>
+	<div class="list">
+		<div class="pages">
+			<a href="booking.html">Bookings</a>
+	</div>
+		<div class="pages">
+			<a href="destination.html">Destinations</a>
+	</div>
+		<div class="pages">
+			<a href="#contact">Contact Us</a>
+	</div>
+	</div>
 	<h2>Start Booking Now</h2>
-  <p>Finally chose your destination or had one in mind? Start booking your trip now with your travel advisor for the most cost effective plan out there. Our advisor will make sure you will find a plan affordable for you and your needs.</p>
+  	<p>Finally chose your destination or had one in mind? Start booking your trip now with your travel advisor for the most cost effective plan out there. Our advisor will make sure you will find a plan affordable for you and your needs.</p>
 	<section id="contact">
 
 		<h3>Contact Us</h3>
