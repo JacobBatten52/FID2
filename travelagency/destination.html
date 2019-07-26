@@ -16,6 +16,17 @@
 		}
 		p {	text-align: center;
 		}
+		.list {	display: flex;
+		}
+		.pages {flex: 33.33%
+			padding: 5px;
+		}
+		.row {	display: flex;
+		}
+		.column {
+			flex: 50%;
+			padding: 5px;
+		}
 	</style>
 </head>
 <body>
@@ -32,8 +43,18 @@
 			<a href="contact.html">Contact Us</a>
 	</div>
 	</div>
+</header>
 	<h2>Top Travel Destination</h2>
 	<p>If your looking for the best place to spend your vacation, choose from some of our most popular destinations. From the Bahamas to Australia, we will ensure that you will love these locations.</p>
-</header>
+	<div class="row">
+		<div class="column">
+			<a href="destination.html"><img src="images/Bahamas.jpg" alt="The Bahamas" width="500" height="333"></a>
+			<a href="destination.html"><img src="images/Europe.jpg" alt="Europe" width="500" height="333"></a>
+		</div>
+		<div class="column">
+			<a href="destination.html"><img src="images/Australia.jpg" alt="Australia" width="500" height="333"></a>
+			<a href="destination.html"><img src="images/Japan.jpg" alt="Japan" width="500" height="333"></a>
+		</div>
+	</div>
 </body>
 </html>
