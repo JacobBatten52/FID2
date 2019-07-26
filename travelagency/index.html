@@ -22,15 +22,34 @@
 			flex: 50%;
 			padding: 5px;
 		}
+		.list {	display: flex;
+		}
+		.pages {
+			flex: 33.33%;
+			padding: 5px;
+		}
 		div {	text-align: center;
 		}
 	</style>
 </head>
 <body>
+<header>
 	<h1>The Batten Travel Agency</h1>
-	<h2>Find Out Where to Spend Your Next Vacation Here!</h2>
+	<div class="list">
+		<div class="pages">
+			<a href="booking.html">Bookings</a>
+	</div>
+		<div class="pages">
+			<a href="destination.html">Destinations</a>
+	</div>
+		<div class="pages">
+			<a href="contact.html">Contact Us</a>
+	</div>
+	</div>
+</header>
+	<h3>Find Out Where to Spend Your Next Vacation Here!</h3>
 	<p>Millions have trusted there vacations destinations with us, so why not do the same? Our travel advisors will personally help you choose the perfect locations to spend with family or a loved one. From The Bahamas to Australia, get ready for the vacation of your dreams when you plan your next trip with us.</p>
-	<h2>Top Destinations Around The World</h2>
+	<h3>Top Destinations Around The World</h3>
 	<p>These are our most popular travel destinations.</p>
 	<div class="row">
 		<div class="column">
@@ -42,6 +61,6 @@
 			<a href="destination.html"><img src="images/Japan.jpg" alt="Japan" width="500" height="333"></a>
 		</div>
 	</div>
-	<h2>Book your Journey Now</h2>
+	<h3>Book your Journey Now</h3>
 	<p>If your ready to start booking your next destination, then get started <a href="booking.html">here.</a></p>
 </body>
